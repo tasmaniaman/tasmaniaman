@@ -13,7 +13,8 @@ var movies = [
     "runtime": 142,
     "genre": [
       "Crime",
-      "Drama"
+      "Drama",
+      "Widget"
     ],
     "certificate": "R",
     "date": "1974-04-30T10:29:29+05:30",
@@ -34,7 +35,8 @@ var movies = [
     "runtime": 175,
     "genre": [
       "Crime",
-      "Drama"
+      "Drama",
+      "Widget"
     ],
     "certificate": "R",
     "date": "1974-07-12T10:29:29+05:30",
@@ -55,7 +57,8 @@ var movies = [
     "runtime": 200,
     "genre": [
       "Crime",
-      "Drama"
+      "Drama",
+      "Fishpig"
     ],
     "certificate": "R",
     "date": "1992-08-23T10:29:29+05:30",
