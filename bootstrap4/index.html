@@ -10,6 +10,48 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
-  test
+  <div class="container">
+    <div class="row">
+      <div class="d-none col-md-5 d-md-flex align-items-center dt-mega">
+                <button class="btn text-uppercase mx-auto collapsed" type="button" data-toggle="collapse" data-target="#dt-shop" aria-expanded="false" aria-controls="dt-shop">
+                  Shop
+                </button>
+              </div>
+        </div>
+    </div>
+  <div class="container">
+			<div class="row position-relative" id="dt-mega-menu">
+				<div class="col-md-10 offset-md-1 p-md-5 collapse bg-white border border-info position-absolute" id="dt-shop" data-parent="#dt-mega-menu">
+					<div class="row" id="dt-shop-inner">
+						<div class="col-md-3 lvl1">
+							<a href="#collapseExample1" class="d-block pt-2 pb-2 dt-shop-productad" data-toggle="collapse" data-target="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample1" data-showad="1-dt-shop-productad" data-parent="#dt-shop-inner">Pre-order</a>
+							<a data-toggle="collapse" href="#collapseExample2" class="d-block pt-2 pb-2 dt-shop-productad collapsed" data-showad="2-dt-shop-productad" role="button" aria-expanded="false" aria-controls="collapseExample2" data-parent="#dt-shop-inner">Box-sets</a>
+							<a data-toggle="collapse" href="#collapseExample3" class="d-block pt-2 pb-2 dt-shop-productad collapsed" data-showad="3-dt-shop-productad" role="button" aria-expanded="false" aria-controls="collapseExample3" data-parent="#dt-shop-inner">Vinyl Bundles</a>
+						</div>
+						<div class="col-md-5 pl-md-5 border-left">
+							<div class="collapse show" id="collapseExample1" data-parent="#dt-shop-inner">
+								<a href="#" class="d-block pt-2 pb-2">Preorder collapseExample1 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">Preorder collapseExample1 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">Preorder collapseExample1 Item</a>
+							</div>
+							<div class="collapse" id="collapseExample2" data-parent="#dt-shop-inner">
+								<a href="#" class="d-block pt-2 pb-2">collapseExample2 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">collapseExample2 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">collapseExample2 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">collapseExample2 Item</a>
+							</div>
+							<div class="collapse" id="collapseExample3" data-parent="#dt-shop-inner">
+								<a href="#" class="d-block pt-2 pb-2">collapseExample3 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">collapseExample3 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">collapseExample3 Item</a>
+								<a href="#" class="d-block pt-2 pb-2">collapseExample3 Item</a>
+							</div>						
+						</div>
+						<div class="col-md-4 pl-md-5 border-left" id="sub-advert">
+							Advert here
+						</div>
+					</div>
+				</div>				
+			</div>
 </body>
 </html>
